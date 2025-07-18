@@ -47,18 +47,6 @@ const App = () => {
   };
 
   return (
-    // <div className="p-6">
-    //   <RoleToggle role={role} setRole={setRole} />
-    //   <Calendar
-    //     role={role}
-    //     bookings={bookings}
-    //     onBook={handleBooking}
-    //     timeSlots={timeSlots}
-    //     currentWeekStart={currentWeekStart}
-    //     onNextWeek={handleNextWeek}
-    //     onPrevWeek={handlePrevWeek}
-    //   />
-    // </div>
     <div className="min-h-screen bg-gray-100 p-6 font-sans">
   <div className="max-w-5xl mx-auto bg-white shadow-md rounded-lg p-6">
     <RoleToggle role={role} setRole={setRole} />

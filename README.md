@@ -1,70 +1,130 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Slot Booking App
 
-## Available Scripts
+This is a React-based slot booking application.
 
-In the project directory, you can run:
+## 🚀 Getting Started
 
-### `npm start`
+These instructions will help you set up and run the project on your local machine.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Node.js (v14 or later)
+- npm (v6 or later)
 
-### `npm test`
+# NNIIT_ASSESSMENT - Slot Booking App
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is a calendar-based slot booking web application built using **React.js** and **date-fns**. Users can book slots for classes, and the app supports different views for **students** and **tutors**.
 
-### `npm run build`
+## 🚀 Live Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🔗 [Click here to view the deployed app](https://harshithaandoji.github.io/NNIIT_ASSESSMENT/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React.js
+- date-fns
+- JavaScript
+- CSS
+- GitHub Pages for deployment
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/HarshithaAndoji/NNIIT_ASSESSMENT.git
+cd NNIIT_ASSESSMENT
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Install dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+3. Start the development server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The app will be available at `http://localhost:3000`.
 
-### Code Splitting
+## 🧪 Running Tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm test
+```
 
-### Analyzing the Bundle Size
+## 🛠️ Build for Production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm run build
+```
 
-### Making a Progressive Web App
+## 🌐 Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project uses GitHub Pages for deployment.
 
-### Advanced Configuration
+### Steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Add the homepage to `package.json`:
 
-### Deployment
+```json
+"homepage": "https://harshithaandoji.github.io/NNIIT_ASSESSMENT"
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+2. Run the following commands to deploy:
 
-### `npm run build` fails to minify
+```bash
+npm run build
+npm run deploy
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The site will be live at:
+👉 [https://harshithaandoji.github.io/NNIIT_ASSESSMENT](https://harshithaandoji.github.io/NNIIT_ASSESSMENT)
+
+## 📁 Folder Structure
+
+```
+├── public/
+│ └── index.html
+├── src/
+│ ├── components/
+│ │ ├── Calendar.jsx
+│ │ ├── SlotCell.jsx
+│ │ └── RoleToggle.jsx
+│ ├── data/
+│ │ ├── initialData.js
+│ ├── App.js
+│ └── index.js
+└── db.json
+├── package.json
+└── README.md
+```
+
+## 🖥️ Features
+
+- 📅 Displays a weekly calendar view.
+- 👥 Different views for student and tutor.
+- ✅ Book and view available slots.
+- 🔄 Navigate between weeks.
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/HarshithaAndoji/NNIIT_ASSESSMENT.git
+cd NNIIT_ASSESSMENT
+npm install
+npm start
+
+## 📚 Learn More
+
+- [React Documentation](https://reactjs.org/)
+- [Create React App Documentation](https://create-react-app.dev/)
+- [GitHub Pages Deployment Guide](https://github.com/gitname/react-gh-pages)
+
+---
+
+© 2025 Harshitha Andoji
