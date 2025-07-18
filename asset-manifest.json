@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BookMyClass/static/css/main.bb6637d1.css",
+    "main.js": "/BookMyClass/static/js/main.ca352e7a.js",
+    "static/js/453.5fd3a1d1.chunk.js": "/BookMyClass/static/js/453.5fd3a1d1.chunk.js",
+    "index.html": "/BookMyClass/index.html",
+    "main.bb6637d1.css.map": "/BookMyClass/static/css/main.bb6637d1.css.map",
+    "main.ca352e7a.js.map": "/BookMyClass/static/js/main.ca352e7a.js.map",
+    "453.5fd3a1d1.chunk.js.map": "/BookMyClass/static/js/453.5fd3a1d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb6637d1.css",
+    "static/js/main.ca352e7a.js"
+  ]
+}
